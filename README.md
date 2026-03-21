@@ -41,26 +41,26 @@ The model training was performed in two phases:
 2. **Fine-Tuning Phase**  
    Selected upper convolutional layers were unfrozen to adapt the model more effectively to mammogram images.
 
-### Installation
+## Installation
 - Please install the needed Python libraries from the requirements.txt
 
-### How to run
+## How to run
 - Download the project folder, then run the:
    - app.py
 - The selected model will be included in the same folder. When the load_model successful, there will return the graphical user interface (GUI). After that, choosing image and predict the result.
 
-### Dataset structure
+## Dataset structure
 - CBIS-DDSM dataset.
 - Remove Background dataset.
 - Combination dataset included CBIS-DDSM original images.
 
 
-### Project structure
+## Project structure
 - README.md
 - Requirements.txt
 - .gitignore
 - app.py
 - VGG16.h5
   
-### author
+## Author
 TEO SHI KAI
