@@ -1,4 +1,4 @@
-# Final-Year-Project-Breast-Cancer-Detection-Used VGG16 model and Tkinter
+# Final-Year-Project-Breast-Cancer-Detection-Using VGG16 model and Tkinter
 
 ## Overview
 This project is a breast cancer detection system developed using a VGG16-based deep learning model and the Tkinter graphical user interface (GUI). The system can classify mammogram images into two categories which are **benign** and **malignant**.
@@ -13,15 +13,15 @@ The main objectives of this project are:
 - To evaluate the system using standard classification metrics.
 
 ## Features
-- Mammogram image classification with using VGG16.
+- Mammogram image classification using VGG16.
 - Binary classification: Benign & Malignant
 - Transfer learning with fine-tuning
 - Tkinter GUI for image upload and prediction
 - Image validation before prediction
-- Evaluation metrics with using accuracy, precision, recall, F1-score, confusion matrix, ROC curve and AUC
+- Evaluation metrics including accuracy, precision, recall, F1-score, confusion matrix, ROC curve and AUC
 
 ## Model Information
-The classification model is used **VGG16** which is a pretrained convolutional neural network.
+The classification model is uses **VGG16** which is a pretrained convolutional neural network.
 
 ### Architecture Summary
 - Input size: **256 × 256 × 3**
@@ -42,17 +42,17 @@ The model training was performed in two phases:
    Selected upper convolutional layers were unfrozen to adapt the model more effectively to mammogram images.
 
 ## Installation
-- Please install the needed Python libraries from the requirements.txt
+- Please install the required Python libraries from the **Requirements.txt** file.
 
 ## How to run
 - Download the project folder, then run the:
-   - app.py
-- The selected model will be included in the same folder. When the load_model successful, there will return the graphical user interface (GUI). After that, choosing image and predict the result.
+   - **app.py**
+- The selected model should be included in the same folder. In case **load_model** successful, the graphical user interface (GUI) will open.
 
 ## Dataset structure
 - CBIS-DDSM dataset.
 - Remove Background dataset.
-- Combination dataset included CBIS-DDSM original images.
+- Combination dataset including CBIS-DDSM original images.
 
 
 ## Project structure
@@ -63,4 +63,4 @@ The model training was performed in two phases:
 - VGG16.h5
   
 ## Author
-TEO SHI KAI
+Teo Shi Kai
