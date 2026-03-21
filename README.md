@@ -40,3 +40,27 @@ The model training was performed in two phases:
    The VGG16 convolutional base was frozen and only the custom classifier layers were trained.
 2. **Fine-Tuning Phase**  
    Selected upper convolutional layers were unfrozen to adapt the model more effectively to mammogram images.
+
+### Installation
+- Please install the needed Python libraries from the requirements.txt
+
+### how to run
+- Download the project folder, then run the:
+   - app.py file
+- The selected model will be included in the same folder. When the load_model successful, there will return the graphical user interface (GUI).
+
+### dataset structure
+- CBIS-DDSM dataset.
+- Remove Background dataset.
+- Combination dataset included CBIS-DDSM original images.
+
+
+### project structure
+- README.md
+- Requirements.txt
+- .gitignore
+- app.py
+- VGG16.h5
+  
+### author
+- TEO SHI KAI
