@@ -45,9 +45,15 @@ The model training was performed in two phases:
 - Please install the required Python libraries from the **Requirements.txt** file.
 
 ## How to run
-- Download the project folder, then run the:
-   - **app.py**
-- The selected model should be included in the same folder. In case **load_model** successful, the graphical user interface (GUI) will open.
+1. Download the project folder
+2. Download the model **(VGG16.h5)** from my Google Drive link **(https://drive.google.com/drive/folders/1WFC_A-qQ-O6O-CvKlHXH6U0XVpJ9826s?usp=drive_link)**
+3. Paste the model **(VGG16.h5)** file into the project file.
+4. Run the **app.py**
+
+! In case the app.py can't open because you did not follow the 1,2 and 3 step. 
+   * Condition
+      * Selected model should be included in the same folder.
+      * In case **load_model** successful, the graphical user interface (GUI) will open.
 
 ## Dataset structure
 - CBIS-DDSM dataset.
