@@ -43,6 +43,9 @@ The model training was performed in two phases:
 
 ## Installation
 - Please install the required Python libraries from the **Requirements.txt** file.
+- Install the files needed:
+  - app.py
+  - VGG16.h5
 
 ## How to run
 1. Download the project folder
@@ -67,6 +70,10 @@ The model training was performed in two phases:
 - .gitignore
 - app.py
 - VGG16.h5
+
+## Link
+- Google Drive Link - **https://drive.google.com/drive/folders/1WFC_A-qQ-O6O-CvKlHXH6U0XVpJ9826s?usp=drive_link**
+- YouTube Link - **https://youtu.be/zvrPI8KGGPs**
   
 ## Author
 Teo Shi Kai
