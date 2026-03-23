@@ -52,6 +52,7 @@ The model training was performed in two phases:
 2. Download the model **(VGG16.h5)** from my Google Drive link **(https://drive.google.com/drive/folders/1WFC_A-qQ-O6O-CvKlHXH6U0XVpJ9826s?usp=drive_link)**
 3. Paste the model **(VGG16.h5)** file into the project file.
 4. Run the **app.py**
+5. Sample image be prepare for application test. 
 
 ! In case the app.py can't open because you did not follow the 1,2 and 3 step. 
    * Condition
