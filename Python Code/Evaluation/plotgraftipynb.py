@@ -15,6 +15,31 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 
+"""# GRAPH BETWEEN CNN_CUSTOM AND VGG16
+
+"""
+
+models = ['Custom CNN', 'VGG16']
+accuracy = [0.51, 0.67]
+
+plt.figure(figsize=(6,5))
+bars = plt.bar(models, accuracy)
+
+plt.ylim(0, 1)
+plt.ylabel("Accuracy")
+plt.title("Model Accuracy Comparison")
+
+for bar, value in zip(bars, accuracy):
+    plt.text(
+        bar.get_x() + bar.get_width()/2,
+        value + 0.02,
+        f"{value:.2f}",
+        ha='center'
+    )
+
+plt.tight_layout()
+plt.show()
+
 """**ENTER EACH EXPERIMENT**
 
 Insert value and calculate the average of the f1-score for benign and malignant.
